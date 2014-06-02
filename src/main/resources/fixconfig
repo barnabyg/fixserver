@@ -1,0 +1,16 @@
+[default]
+FileStorePath=c:\\tmp
+FileLogPath=c:\\tmp
+ConnectionType=acceptor
+SenderCompID=FIXSERVER
+TargetCompID=FIXCLIENT
+SocketAcceptAddress=localhost
+#SocketAcceptProtocol=TCP
+StartTime=00:00:00
+EndTime=00:00:00
+HeartBtInt=30
+UseDataDictionary=Y
+
+[session]
+BeginString=FIX.4.4
+SocketAcceptPort=9878
