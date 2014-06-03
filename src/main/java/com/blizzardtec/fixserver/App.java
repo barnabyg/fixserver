@@ -2,7 +2,7 @@ package com.blizzardtec.fixserver;
 
 /**
  * Fix server main class.
- * 
+ *
  */
 public final class App {
 
@@ -15,7 +15,7 @@ public final class App {
 
     /**
      * Main app start.
-     * 
+     *
      * @param args
      *            command line args
      */

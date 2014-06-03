@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.blizzardtec.fixserver;
 
@@ -10,13 +10,6 @@ package com.blizzardtec.fixserver;
 public final class OrderType {
 
     /**
-     * Private constructor for utility class.
-     */
-    private OrderType() {
-        // private constructor
-    }
-
-    /**
      * Bid.
      */
     public static final char BID = '0';
@@ -24,4 +17,11 @@ public final class OrderType {
      * Offer.
      */
     public static final char OFFER = '1';
+
+    /**
+     * Private constructor for utility class.
+     */
+    private OrderType() {
+        // private constructor
+    }
 }

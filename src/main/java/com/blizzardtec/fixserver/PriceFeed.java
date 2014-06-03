@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.blizzardtec.fixserver;
 
@@ -13,23 +13,23 @@ import java.util.List;
 public final class PriceFeed {
 
     /**
-     * 
+     * blah.
      */
     private static final double DELETE_FACTOR = 0.05;
     /**
-     * 
+     * blah.
      */
     private static final char NEW = '0';
     /**
-     * 
+     * blah.
      */
     private static final double UPDATE_FACTOR = 0.3;
     /**
-     * 
+     * blah.
      */
     private static final char DELETE = '2';
     /**
-     * 
+     * blah.
      */
     private static final char CHANGE = '1';
     /**
@@ -111,7 +111,7 @@ public final class PriceFeed {
         final double updateFactor = Math.random();
 
         if (updateFactor > UPDATE_FACTOR) {
-            priceDepth.setUpdateAction(CHANGE);            
+            priceDepth.setUpdateAction(CHANGE);
         } else if (updateFactor > DELETE_FACTOR
                         && updateFactor <= UPDATE_FACTOR) {
             priceDepth.setUpdateAction(DELETE);

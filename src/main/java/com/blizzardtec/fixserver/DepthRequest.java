@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.blizzardtec.fixserver;
 

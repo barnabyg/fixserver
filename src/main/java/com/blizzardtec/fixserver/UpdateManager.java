@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.blizzardtec.fixserver;
 
@@ -22,11 +22,12 @@ import quickfix.Message;
  * @author Barnaby Golden
  *
  */
+@SuppressWarnings("PMD.UnnecessaryFullyQualifiedName")
 public final class UpdateManager
             extends HashSet<DepthRequest> implements Runnable {
 
     /**
-     * 
+     *
      */
     private static final long serialVersionUID = -5585782800237016436L;
     /**
@@ -125,8 +126,8 @@ public final class UpdateManager
                     new quickfix.field.MDEntryPx(pDepth.getMidPrice()));
             entryGroup.set(
                     new quickfix.field.MDEntrySize(pDepth.getOrderSize()));
-    
-            msg.addGroup(entryGroup);            
+
+            msg.addGroup(entryGroup);
         }
 
 
